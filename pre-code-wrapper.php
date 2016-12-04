@@ -2,7 +2,7 @@
 /*
 * Plugin Name: TinyMCE Pre code wrapper
 * Plugin URI: https://crilleengvall.github.io/Wordpress-tinyMCE-pre-code-wrapper/
-* Description: Adds a plugin to tinyMCE to quickly wrap or insert <pre><code> tags - Plays good with highlight.js
+* Description: Adds a plugin to tinyMCE to quickly wrap or insert &lt;pre&gt;&lt;code&gt;&lt;/pre&gt;&lt;/code&gt; tags - Plays good with highlight.js
 * Version: 0.1
 * Author: Christian Engvall
 * Author URI: http://www.christianengvall.se
