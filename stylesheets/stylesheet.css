@@ -96,6 +96,7 @@ header h2 {
 
 .inner h2 {
 	color: #aaa;
+	margin-bottom: 35px;
 }
 
 #container .inner img {
@@ -356,7 +357,7 @@ header h1 {
 }
 
 .logo-container {
-	heigh:210px;
+	height:210px;
 }
 
 /* #Media Queries
