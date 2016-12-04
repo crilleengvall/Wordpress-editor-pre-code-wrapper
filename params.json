@@ -1,5 +1,5 @@
 {
-  "name": "Wordpress-tinymce-pre-code-wrapper",
+  "name": "Wordpress tinyMCE-pre-code-wrapper",
   "tagline": "Adds a plugin to tinyMCE to quickly wrap or insert <pre><code> tags - Plays good with highlight.js",
   "body": "### Welcome to Wordpress tinyMCE-pre-code-wrapper webpage\r\n\r\n#### What is it?\r\nThis is a plugin that adds a button to the tinyMCE editor in WordPress. The button either adds a <pre><code></code></pre> or wraps the selected text in it.\r\n\r\nThis works well for developer blogs that use some kind of code markup highlighter. For example the [WP Code highlight.js plugin](https://wordpress.org/plugins/wp-code-highlightjs/)\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
