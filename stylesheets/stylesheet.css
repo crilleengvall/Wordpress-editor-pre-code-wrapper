@@ -341,9 +341,8 @@ footer a:hover {
 
 header img {
   float: left;
-  width: 100px;
-  height: 100px;
-  background: #555;
+  width: 200px;
+  height: 200px;
 }
 
 header h1 {
