@@ -2,7 +2,7 @@
 /*
 * Plugin Name: TinyMCE Pre code wrapper
 * Plugin URI:
-* Description: Adds a TinyMCE plugin that adds or wraps selected text with <pre><code></code></pre>
+* Description: Adds a plugin to tinyMCE to quickly wrap or insert <pre><code> tags - Plays good with highlight.js
 * Version: 0.1
 * Author: Christian Engvall
 * Author URI: http://www.christianengvall.se
