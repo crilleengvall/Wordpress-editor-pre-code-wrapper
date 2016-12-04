@@ -94,6 +94,10 @@ header h2 {
   margin: 0 auto;
 }
 
+.inner h2 {
+	color: #aaa;
+}
+
 #container .inner img {
   max-width: 100%;
 }
@@ -349,6 +353,10 @@ header h1 {
   position: relative;
   top: 18px;
   left: 10px;
+}
+
+.logo-container {
+	heigh:210px;
 }
 
 /* #Media Queries
