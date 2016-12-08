@@ -12,7 +12,9 @@ Adds a plugin to tinyMCE to quickly wrap or insert <pre><code> tags - Plays good
 
 == Description ==
 
-This is a plugin that adds a button to the tinyMCE editor in WordPress. The button either adds a <pre><code></pre></code> or wraps the selected text in it.
+This is a plugin that adds a button to the tinyMCE editor in WordPress. The button either adds a &lt;pre&gt;&lt;code&gt;&lt;/pre&gt;&lt;/code&gt; or wraps the selected text in it.
+
+This works well for developer blogs that use some kind of code markup highlighter. For example the <a href="https://wordpress.org/plugins/wp-code-highlightjs/">WP Code highlight.js plugin</a>
 
 = Official website =
 <a href="https://crilleengvall.github.io/Wordpress-tinyMCE-pre-code-wrapper/">the plugin website</a>.
