@@ -1,7 +1,7 @@
 <?php
 /*
-* Plugin Name: TinyMCE Pre code wrapper
-* Plugin URI: https://crilleengvall.github.io/Wordpress-tinyMCE-pre-code-wrapper/
+* Plugin Name: Editor Pre code wrapper
+* Plugin URI: https://github.com/crilleengvall/Wordpress-editor-pre-code-wrapper
 * Description: Adds a plugin to tinyMCE to quickly wrap or insert &lt;pre&gt;&lt;code&gt;&lt;/pre&gt;&lt;/code&gt; tags - Plays good with highlight.js
 * Version: 0.1
 * Author: Christian Engvall
@@ -11,21 +11,21 @@
 * Text Domain: pre-code-wrapper
 * Domain Path: /languages
 
-TinyMCE Pre code wrapper is free software: you can redistribute it and/or modify
+Editor Pre code wrapper is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-TinyMCE Pre code wrapper is distributed in the hope that it will be useful,
+Editor Pre code wrapper is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with TinyMCE Pre code wrapper.  If not, see <https://www.gnu.org/licenses/gpl-3.0.html>.
+along with Editor Pre code wrapper.  If not, see <https://www.gnu.org/licenses/gpl-3.0.html>.
 */
 
-class TinyMCEPreCodeWrapper {
+class EditorPreCodeWrapper {
   public function __construct() {
     add_action( 'admin_init', array($this, 'setup_tiny_mce_plugin') );
   }
@@ -54,4 +54,4 @@ class TinyMCEPreCodeWrapper {
   }
 }
 
-$preCodePlugin = new TinyMCEPreCodeWrapper();
+$preCodePlugin = new EditorPreCodeWrapper();
